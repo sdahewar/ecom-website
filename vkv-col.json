@@ -1,0 +1,31 @@
+[
+  { "col-name": "Vivekananda Kendra Vidyalaya", "code": "vkv", "cid": 6 },
+  {
+    "id": 1,
+    "school": "vkv",
+    "cloth": "shirt",
+    "price": "320",
+    "description": "vkv shirt desc"
+  },
+  {
+    "id": 2,
+    "school": "vkv",
+    "cloth": "pant",
+    "price": "520",
+    "description": "vkv pant desc"
+  },
+  {
+    "id": 3,
+    "school": "vkv",
+    "cloth": "tie",
+    "price": "099999990",
+    "description": "vkv tie desc"
+  },
+  {
+    "id": 4,
+    "school": "vkv",
+    "cloth": "shoes",
+    "price": "420",
+    "description": "vkv shoes desc"
+  }
+]

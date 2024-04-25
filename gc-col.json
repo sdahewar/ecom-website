@@ -1,0 +1,31 @@
+[
+  { "col-name": "GC College", "code": "gc", "cid": 0 },
+  {
+    "id": 1,
+    "school": "gc",
+    "cloth": "shirt",
+    "price": "320",
+    "description": "gc shirt desc"
+  },
+  {
+    "id": 2,
+    "school": "gc",
+    "cloth": "pant",
+    "price": "520",
+    "description": "gc pant desc"
+  },
+  {
+    "id": 3,
+    "school": "gc",
+    "cloth": "tie",
+    "price": "099999990",
+    "description": "gc tie desc"
+  },
+  {
+    "id": 4,
+    "school": "gc",
+    "cloth": "shoes",
+    "price": "420",
+    "description": "gc shoes desc"
+  }
+]

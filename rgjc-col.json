@@ -1,0 +1,31 @@
+[
+  { "col-name": "Ramanuj Gupta Junior College", "code": "rgjc", "cid": 2 },
+  {
+    "id": 1,
+    "school": "rgjc",
+    "cloth": "shirt",
+    "price": "320",
+    "description": "rgjc shirt desc"
+  },
+  {
+    "id": 2,
+    "school": "rgjc",
+    "cloth": "pant",
+    "price": "520",
+    "description": "rgjc pant desc"
+  },
+  {
+    "id": 3,
+    "school": "rgjc",
+    "cloth": "tie",
+    "price": "099999990",
+    "description": "rgjc tie desc"
+  },
+  {
+    "id": 4,
+    "school": "rgjc",
+    "cloth": "shoes",
+    "price": "420",
+    "description": "rgjc shoes desc"
+  }
+]

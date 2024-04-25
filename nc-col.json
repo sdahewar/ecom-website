@@ -1,0 +1,31 @@
+[
+  { "col-name": "Nabinchandra College", "code": "nc", "cid": 3 },
+  {
+    "id": 1,
+    "school": "nc",
+    "cloth": "shirt",
+    "price": "320",
+    "description": "nc shirt desc"
+  },
+  {
+    "id": 2,
+    "school": "nc",
+    "cloth": "pant",
+    "price": "520",
+    "description": "nc pant desc"
+  },
+  {
+    "id": 3,
+    "school": "nc",
+    "cloth": "tie",
+    "price": "099999990",
+    "description": "nc tie desc"
+  },
+  {
+    "id": 4,
+    "school": "nc",
+    "cloth": "shoes",
+    "price": "420",
+    "description": "nc shoes desc"
+  }
+]

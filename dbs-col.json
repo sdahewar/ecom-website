@@ -1,0 +1,32 @@
+[
+  { "col-name": "Don Bosco School", "code": "dbs", "cid": 5 },
+
+  {
+    "id": 1,
+    "school": "dbs",
+    "cloth": "shirt",
+    "price": "320",
+    "description": "dbs shirt desc"
+  },
+  {
+    "id": 2,
+    "school": "dbs",
+    "cloth": "pant",
+    "price": "520",
+    "description": "dbs pant desc"
+  },
+  {
+    "id": 3,
+    "school": "dbs",
+    "cloth": "tie",
+    "price": "099999990",
+    "description": "dbs tie desc"
+  },
+  {
+    "id": 4,
+    "school": "dbs",
+    "cloth": "shoes",
+    "price": "420",
+    "description": "dbs shoes desc"
+  }
+]
