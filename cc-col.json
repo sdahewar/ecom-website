@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "school": "cc",
+    "cloth": "shirt",
+    "price": "320",
+    "description": "cc shirt desc"
+  },
+  {
+    "id": 2,
+    "school": "cc",
+    "cloth": "pant",
+    "price": "520",
+    "description": "cc pant desc"
+  },
+  {
+    "id": 3,
+    "school": "cc",
+    "cloth": "tie",
+    "price": "099999990",
+    "description": "cc tie desc"
+  },
+  {
+    "id": 4,
+    "school": "cc",
+    "cloth": "shoes",
+    "price": "420",
+    "description": "cc shoes desc"
+  }
+]
