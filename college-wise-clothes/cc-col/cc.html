@@ -184,27 +184,20 @@
    
     <script src="/script.js"></script>
     <script src="/buttonlogic.js"></script>
+    
+    
+
     <!-- <script>
-        // Retrieve the extracted price from localStorage
-        var price = localStorage.getItem("price");
-
-        // Update the paragraph text with the fetched price
-        if (price) {
-            document.getElementById("price--3").textContent = price;
-        }
-    </script> -->
-
-    <script>
         // Retrieve the extracted prices from localStorage
         var prices = JSON.parse(localStorage.getItem("prices"));
 
         // Update the paragraph fields with the fetched prices
         if (prices && prices.length > 0) {
-            prices.forEach((price, index) => {
+            prices.forEach((prices, index) => {
                 var paragraphId = "price--" + (index + 1);
                 var paragraph = document.getElementById(paragraphId);
                 if (paragraph) {
-                    paragraph.textContent = price;
+                    paragraph.textContent = prices;
                 }
             });
         }
@@ -216,6 +209,7 @@
         console.log(collegeName);
         var cid = localStorage.getItem("cid");
         console.log(cid);
+        console.log(localStorage);
     
         
 
@@ -228,14 +222,33 @@
             document.getElementById("cn").textContent = collegeName + " All Products";
         }
     </script>
-    <!-- <script>
-        // Retrieve the extracted college name from localStorage
-        var collegeName = localStorage.getItem("collegeName");
+     -->
 
-        // Update the HTML content with the fetched college name
+     <script>
+        // Retrieve the extracted prices and college name from localStorage
+        var prices = JSON.parse(localStorage.getItem("prices"));
+        var collegeName = localStorage.getItem("collegeName");
+    
+        // Update the paragraph fields with the fetched prices
+        if (prices && prices.length > 0) {
+            prices.forEach((price, index) => {
+                var paragraphId = "price--" + (index + 1);
+                var paragraph = document.getElementById(paragraphId);
+                if (paragraph) {
+                    paragraph.textContent = price;
+                }
+            });
+        }
+    
+        // Update the paragraph fields with the fetched college name
         if (collegeName) {
             document.getElementById("cn").textContent = collegeName + " All Products";
+            document.getElementById("cn-shirt").textContent = collegeName + " SHIRT";
+            document.getElementById("cn-pant").textContent = collegeName + " PANT";
+            document.getElementById("cn-tie").textContent = collegeName + " TIE";
+            document.getElementById("cn-shoes").textContent = collegeName + " SHOES";
         }
-    </script> -->
+    </script>
+    
 
 </html>
